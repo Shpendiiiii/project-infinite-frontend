@@ -1,11 +1,13 @@
 <script>
-    import {Teams} from "$lib";
+    import {Footer, Navbar, Teams} from "$lib";
 </script>
+<div class="flex flex-col min-h-screen">
+<main class="flex-1">
+    <Navbar></Navbar>
+    <h1>Welcome to SvelteKit</h1>
 
-<h1>Welcome to SvelteKit</h1>
-<p class="text-red-800 text-[40px] text-center">Ej pookie, routing and tali wind works</p>
+    <a href="/about">Go to about page</a>
+</main>
 
-<a href="/about">Go to about page</a>
-
-<!--Component gets called-->
-<Teams/>
+    <Footer></Footer>
+</div>
