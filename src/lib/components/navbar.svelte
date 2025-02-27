@@ -19,7 +19,7 @@
                 Home
 
                 {#if isHovered}
-                    <div class="absolute top-full left-1/4 transform -translate-x-1/2 text-center w-[160%] bg-gray-800 text-white rounded-md shadow-md mx-3 z-10"
+                    <div class="absolute top-full left-1/4 transform -translate-x-1/2 text-center w-[160%] bg-gray-800 text-white rounded-md shadow-md mt-[0.7rem] mx-3 z-10"
                          on:mouseover={() => (isHovered = true)}
                          on:mouseleave={() => (isHovered = false)}
                          aria-haspopup="true"
